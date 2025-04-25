@@ -12,9 +12,24 @@ minSteps = goal;
   
  }
 
-public void addDailySteps(){
-
-
+public void addDailySteps(int steps){
+totalSteps += steps;
+totalDays++;
+if(steps >= minSteps)
+  actDays++;
+}
+ 
+public int activeDays(){
+return actDays;
 }
 
+public double averageSteps(){
+if(totalDays == 0)
+ return 0.0;
+else
+ return (double)totalSteps/totalDays;
+ 
+}
+
+ 
 } 
