@@ -1,6 +1,20 @@
 import java.util.ArrayList;
 public class StepTracker
 {
- int distance = 0;
- int hops = 0;
+ private int minStep, totalSteps;
+ private  int totalDays, actDays;
+
+ Public StepTracker(int goal){
+minSteps = goal;
+  totalSteps = 0;
+  totalDays = 0;
+  actDays = 0;
+  
+ }
+
+public void addDailySteps(){
+
+
+}
+
 } 
