@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 public class StepTracker
 {
- /* to be implemented here */
+ int distance = 0;
+ int hops = 0;
 } 
